@@ -227,7 +227,7 @@ Start querying your Database
 
 <img src='./start_querying.png'/>
 
-## Connection Strings
+## Connection Strings Examples
 
 ---
 
