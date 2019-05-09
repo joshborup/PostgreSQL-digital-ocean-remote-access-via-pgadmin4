@@ -19,8 +19,6 @@ sudo apt-get update
 sudo apt-get install postgresql-9.5 postgresql-contrib
 ```
 
-The default configurations provide the most security and do not allow remote access to the database
-
 ### step 2.) Add a user to the database
 
 to add a user to the database, you first need to access the postgres server. you can do that with this command:
@@ -75,6 +73,8 @@ Now, that we've created a user and database you can exit the postgres console by
 ```
 
 ## Part 2.) Configuring outside access
+
+**Note: The default configurations after installing postgres provide the most security and do not allow remote access to the database, we will add access to only a single outside IP address so as to minimize security risks to our server**
 
 ### step 1.) Configuring the server firewall
 
